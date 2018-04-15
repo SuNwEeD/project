@@ -1,0 +1,65 @@
+p{
+  text-align: center;
+  color: red;
+}
+Venom{
+  text-align: center;
+  color:;
+}
+img{
+  width: 250px;
+  float: right;
+}
+p{
+  min-width: 200px;
+}
+#two{
+transition: all 2s ease;
+  color: AliceBlue;
+}
+#two:hover{
+  color: purple;
+ content: "Eddie Brock: ";
+}
+.red{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+#three::before{
+content: "Mac Gargan: ";
+  font-size: 20px;
+  color: purple;
+  cursor: pointer;
+}
+#four::first-letter{
+  font-size: 30px;
+  color: blue;
+  text-shadow: 2px 2px 2px black;
+}
+#five::first-line{
+text-decoration: underline;
+  color: red;
+  
+}
+#three{
+  position: relative;
+  color: AliceBlue;
+}
+#three:hover::after {
+  position: absolute;
+  right: -80px;
+  top: 0px;
+  max-width: 20px;
+}
+span{
+  background-color: red;
+  color: AliceBlue;
+}
+body{
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfR8hAKtHGh5Kk8CUEGBihOlsCfpONC4rh2zElUrRqBk_JEaR_');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px;
+}
